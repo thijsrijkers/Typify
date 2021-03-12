@@ -4,7 +4,7 @@ export class MongoHelper
 {
     public static client: mongodb.MongoClient;
 
-    public  static connect(url:string)
+    public static connect(url:string)
     {
         return new Promise((resolve, reject) => {
             mongodb.MongoClient.connect(url, {useNewUrlParser: true}, (error, client: mongodb.MongoClient) => {
