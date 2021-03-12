@@ -1,7 +1,7 @@
 {
   "name": "Typify",
   "version": "1.0.0",
-  "description": "🐉 API framework for TypeScript",
+  "description": "API framework in TypeScript",
   "main": "app.js",
   "type": "module",
   "scripts": {
