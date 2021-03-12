@@ -4,24 +4,24 @@ import bodyParser from 'body-parser';
 const app = express();
 const PORT = 5000;
 
-app.use(bodyParser.json());
+//app.use(bodyParser.json());
 
-app.get('/get', (require, response) =>
+app.get('/', (require, response) =>
 {
     response.send('get result');
 });
 
-app.post('/post', (require, response) =>
+app.post('/', (require, response) =>
 {
     response.send('post result');
 });
 
-app.put('/put', (require, response) =>
+app.put('/', (require, response) =>
 {
     response.send('put result');
 });
 
-app.delete('/delete', (require, response) =>
+app.delete('/', (require, response) =>
 {
     response.send('delete result');
 });
